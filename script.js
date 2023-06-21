@@ -13,7 +13,7 @@ let activeRating = localStorage.getItem("rating") || 1;
 });
 
 window.onload = () => {
-    if (window.location.pathname === "/success.html") {
+    if (window.location.pathname === "/challenge-13/success.html") {
         const ratingContainer = document.querySelector(".given-rating");
         ratingContainer.textContent = activeRating;
     }
